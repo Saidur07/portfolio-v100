@@ -2,26 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: #0f1118;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+/* Scrollbar  */
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+@media screen and (max-width: 780px) {
+  ::-webkit-scrollbar {
+    display: none;
   }
 }
+::-webkit-scrollbar-track {
+  background-color: #0f1118;
+}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #a4a4a4;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a4a4a4d0;
 }
