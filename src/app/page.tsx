@@ -1,9 +1,9 @@
-import Splash from "@/components/splash/Splash";
+import Header from "@/components/Header/Header";
 
 export default function Home() {
   return (
-    <main>
-      <Splash></Splash>
+    <main className="">
+      <Header></Header>
     </main>
   );
 }

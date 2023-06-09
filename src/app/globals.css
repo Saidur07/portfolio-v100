@@ -11,7 +11,9 @@ body {
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  background-color: #0f1118;
+  overflow-x: hidden;
+  background-color: #12141b;
+  color: white;
 }
 
 /* Scrollbar  */
@@ -25,7 +27,7 @@ body {
   }
 }
 ::-webkit-scrollbar-track {
-  background-color: #0f1118;
+  background-color: #12141b;
 }
 
 ::-webkit-scrollbar-thumb {

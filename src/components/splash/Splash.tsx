@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 
 const Splash = () => {
   const greetingMsgs = [
-    "Hello",
+    "Hi",
     "হ্যালো",
     "مرحبا",
     "नमस्ते",
@@ -35,7 +35,7 @@ const Splash = () => {
           }
           return nextIndex % greetingMsgs.length;
         });
-      }, 200);
+      }, 150);
 
       return () => {
         clearInterval(intervalId);
@@ -50,16 +50,20 @@ const Splash = () => {
   const currentMsg = greetingMsgs[currentMsgIndex];
 
   return (
-    <div className="h-[100vh] bg-accent flex items-center justify-between flex-col py-[3%]">
+    <div className="h-[100vh] bg-[#12141B] flex items-center justify-between flex-col py-[3%]">
       <p
-        className={`transition-opacity duration-500 ease-in-out text-white text-5xl lg:text-8xl lg:mt-[32vh] mt-[36vh] ${
+        className={`transition-opacity duration-300 ease-in-out text-white text-5xl lg:text-7xl lg:mt-[32vh] mt-[36vh] ${
           fadeIn ? "opacity-0" : ""
         }
          `}
       >
         <span>•</span> <span>{currentMsg}</span>
       </p>
-      <div className="loader scale-75 lg:scale-100">
+      <div
+        className={`transition-opacity duration-100 ease-in-out ${
+          fadeIn ? "opacity-0" : ""
+        } loader scale-75 lg:scale-90`}
+      >
         <div className="box1" />
         <div className="box2" />
         <div className="box3" />
