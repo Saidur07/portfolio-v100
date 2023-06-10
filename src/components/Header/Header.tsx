@@ -34,13 +34,13 @@ const Header = () => {
           DEVEL<span> OPER</span>{" "}
         </p>
       </div>
-      <div className="flex items-center   mx-auto justify-center flex-col mt-[25vh]">
+      <div className="flex items-center   mx-auto justify-center flex-col mt-[20vh] xl:mt-[25vh]">
         <div className="xl:max-w-[66rem] md:w-[85%]  w-[90%]">
           <h3 className="xl:text-[44px] md:text-[30px] text-[24px]">
             Hey! I’m <span className="font-semibold">Saidur</span>,
           </h3>
 
-          <h1 className="xl:text-[120px] lg:text-[98px] md:text-[74px] sm:text-[68px] text-[48px] md:my-0 my-2 leading-[1] ">
+          <h1 className="xl:text-[120px] lg:text-[98px] md:text-[74px] sm:text-[68px] text-[40px] md:my-0 my-2 leading-[1] ">
             <span> A FRONT-END </span>
             <br />
             <span>
