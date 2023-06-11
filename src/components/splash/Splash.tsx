@@ -24,7 +24,7 @@ const Splash = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      setFadeIn(false); // Set fadeIn to false after 100ms
+      setFadeIn(false);
     }, 500);
     const timerId = setTimeout(() => {
       const intervalId = setInterval(() => {
