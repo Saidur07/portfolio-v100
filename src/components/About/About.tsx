@@ -21,12 +21,12 @@ const About = () => {
         <hr className="border-2 border-white rounded-full w-1/2 my-2 " />
         <div className="mt-12 text-xl pr-4 tracking-[0.01em]">
           <p className="mb-4">
-            I'm a 16 Y/O passionate front-end web developer from Bangladesh with
-            over 2 years of experience. I'm dedicated to crafting visually
-            stunning and user-friendly websites using cutting-edge technologies
-            like HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Firebase,
-            Node.js etc. Specializing in responsive web design, I strive to
-            create seamless experiences across devices.
+            I&apos;m a 16 Y/O passionate front-end web developer from Bangladesh
+            with over 2 years of experience. I&apos;m dedicated to crafting
+            visually stunning and user-friendly websites using cutting-edge
+            technologies like HTML, CSS, JavaScript, TypeScript, React.js,
+            Next.js, Firebase, Node.js etc. Specializing in responsive web
+            design, I strive to create seamless experiences across devices.
           </p>{" "}
           <p className="mb-4">
             With a keen eye for UI/UX design, I ensure that the websites I
@@ -41,13 +41,14 @@ const About = () => {
             As a firm believer in continuous learning, I stay up-to-date with
             the latest advancements in web technologies. I am enthusiastic about
             taking on new challenges and collaborating with fellow developers
-            and clients. Let's create remarkable digital experiences together!
+            and clients. Let&apos;s create remarkable digital experiences
+            together!
           </p>
         </div>
         <hr className="border-2 border-white rounded-full w-1/2 mt-8 " />
         <div className=" my-8 ">
           <p className="font-semibold text-3xl md:text-5xl my-4">
-            LET'S CONNECT!
+            LET&apos;S CONNECT!
           </p>
           <div className="flex items-center md:justify-start justify-between md:gap-x-16 mt-6 md:mt-12 mb-4 sca">
             <Link href="/" className=" ">
@@ -96,12 +97,13 @@ const About = () => {
           <hr className="border-2 border-white rounded-full w-2/3 my-4 " />
           <div className="mt-12 text-xl pr-4 tracking-[0.01em]">
             <p className="mb-4">
-              I'm a 16 Y/O passionate front-end web developer from Bangladesh
-              with over 2 years of experience. I'm dedicated to crafting
-              visually stunning and user-friendly websites using cutting-edge
-              technologies like HTML, CSS, JavaScript, TypeScript, React.js,
-              Next.js, Firebase, Node.js etc. Specializing in responsive web
-              design, I strive to create seamless experiences across devices.
+              I&apos;m a 16 Y/O passionate front-end web developer from
+              Bangladesh with over 2 years of experience. I&apos;m dedicated to
+              crafting visually stunning and user-friendly websites using
+              cutting-edge technologies like HTML, CSS, JavaScript, TypeScript,
+              React.js, Next.js, Firebase, Node.js etc. Specializing in
+              responsive web design, I strive to create seamless experiences
+              across devices.
             </p>{" "}
             <p className="mb-4">
               With a keen eye for UI/UX design, I ensure that the websites I
@@ -116,7 +118,7 @@ const About = () => {
               As a firm believer in continuous learning, I stay up-to-date with
               the latest advancements in web technologies. I am enthusiastic
               about taking on new challenges and collaborating with fellow
-              developers and clients. Let's create remarkable digital
+              developers and clients. Let&apos;s create remarkable digital
               experiences together!
             </p>
           </div>
@@ -125,7 +127,7 @@ const About = () => {
         <div className="w-1/2 -z-10">
           <Image src={saidur} alt="" className="-z-10"></Image>
           <div className="border-l-4 border-white my-8 px-8">
-            <p className="font-semibold text-5xl my-4">LET'S CONNECT!</p>
+            <p className="font-semibold text-5xl my-4">LET&apos;S CONNECT!</p>
             <div className="flex items-center justify-start gap-x-12 mt-12 mb-4 ">
               <Link href="/" className=" ">
                 {" "}
